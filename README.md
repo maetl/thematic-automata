@@ -10,7 +10,7 @@ Sentences are generated using word frequency n-grams chained from a corpus of se
 
 ## Source Material
 
-- [Corpus of 466k English words](https://github.com/dwyl/english-words)
+- [List of source texts from Project Gutenberg](https://github.com/maetl/thematic-automata/tree/master/corpus/sources.txt)
 - [The 88 inequivalent elementary cellular automata](https://en.wikipedia.org/wiki/Elementary_cellular_automaton#Random_initial_state)
 
 ## Tools
