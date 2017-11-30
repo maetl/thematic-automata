@@ -1,57 +1,20 @@
 $LOAD_PATH << __dir__ + "/lib"
 
-require "automaton"
-require "rule"
-require "markov"
-
-EOL = "\n"
-
-THEMES = {
-  loneliness: ["lonely", "loneliness", "alone"],
-  deception: ["deception", "deceipt", "fraud", "treachery", "cunning", "duplicity"],
-  courage: ["courage", "strength", "valiant", "brave", "courageous", "strong"],
-  love: ["love", "adulation", "adore", "adoration", "affection", "devotion", "passion"]
-}
+require "thematic_automata"
 
 task :generate do
-  sentences = File.read("corpus/tagged_sentences.txt").split(EOL)
-
-  loneliness_sentences = sentences.select do |sentence|
-    THEMES[:loneliness].any? do |thematic_word|
-      sentence.downcase.include?(thematic_word)
-    end
-  end.shuffle
-
-  love_sentences = sentences.select do |sentence|
-    THEMES[:love].any? do |thematic_word|
-      sentence.downcase.include?(thematic_word)
-    end
-  end.shuffle
-
-  courage_sentences = sentences.select do |sentence|
-    THEMES[:courage].any? do |thematic_word|
-      sentence.downcase.include?(thematic_word)
-    end
-  end.shuffle
-
-  deception_sentences = sentences.select do |sentence|
-    THEMES[:deception].any? do |thematic_word|
-      sentence.downcase.include?(thematic_word)
-    end
-  end.shuffle
-
-  CHAINS = {
-    "1" => Markov::Text.new(courage_sentences, splitter: :words),
-    "0" => Markov::Text.new(deception_sentences, splitter: :words)
-  }
-
   pattern = Automaton.new(rule: Rule.new, width: 60, generations: 30)
   chapters = []
+
+  entities = NamedEntities.new
+  sentences = Sentences.new(Theme.new)
 
   pattern.generate.each do |weave|
     paragraphs = []
     weave.chunk { |val| val }.each do |state, cells|
-      paragraphs << cells.map { |c| CHAINS[state].generate }.join(" ").capitalize
+      paragraphs << cells.map do |c|
+        entities.populate(sentences.generate_for(state))
+      end.join(" ")
     end
     chapters << paragraphs
   end

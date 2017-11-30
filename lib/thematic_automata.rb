@@ -1,0 +1,8 @@
+require "automaton"
+require "rule"
+require "markov"
+require "theme"
+require "swatch"
+require "sentences"
+require "named_entities"
+require "names"
