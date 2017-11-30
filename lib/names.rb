@@ -4,7 +4,7 @@ class Names
   end
 
   def generate_names(entity, count)
-    source = Markov::Text.new(File.read("corpus/#{entity.to_s}.txt").split("\n"), splitter: :chars)
+    source = Markov::Text.new(File.read("data/#{entity.to_s}.txt").split("\n"), splitter: :chars)
     names = []
 
     count.times do

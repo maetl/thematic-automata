@@ -3,7 +3,7 @@ class Sentences
 
   def initialize(theme)
     @theme = theme
-    @sentences = File.read("corpus/tagged_sentences.txt").split(EOL)
+    @sentences = File.read("data/tagged_sentences.txt").split(EOL)
     @figure_source = construct_source(@theme.figure)
     @ground_source = construct_source(@theme.ground)
   end
