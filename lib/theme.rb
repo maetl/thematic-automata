@@ -19,7 +19,7 @@ class Theme
   end
 
   def title
-    Calyx::Grammar.new do
+    @title ||= Calyx::Grammar.new do
       start :and_phrase, :concat_phrase, :against_phrase, :or_phrase
       and_phrase "{figure} and {ground}", "{figure} & {ground}"
       concat_phrase "{figure} {ground}"

@@ -1,0 +1,10 @@
+© Mark Rickerby, 2017
+
+This is a computer-generated book produced for NaNoGenMo 2017. The code is available under the terms of the MIT license.
+
+Sourced from public domain novels on Project Gutenberg. See the appendix for more information.
+
+https://maetl.net
+https://github.com/maetl/thematic-automata
+https://github.com/NaNoGenMo/2017
+http://www.gutenberg.org/

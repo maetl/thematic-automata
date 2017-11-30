@@ -60,7 +60,7 @@ Saturday Evening Post
 Boogles
 Swan
 John Bull
-AENONE
+Aenone
 Miss Betty Brittle
 Countess Wilkowska
 Miss Brittle
@@ -443,12 +443,11 @@ NEKRASSOV
 Lake Como
 Hotel de Paris
 Apollon
-SILVIO
+Silvio
 Realise
 IOU
 Myeshtchansky Street
-IX Into
-LA NAPOLEON
+La Napoleon
 Power
 Liza
 Moon Base
@@ -471,84 +470,8 @@ Tassos
 Tasso Types
 Wounded Soldier Type
 Klaus Type
-Project Gutenberg EBook of The Brothers Karamazov
-Project Gutenberg License
 Brothers Karamazov
-Ebook
-Brothers Karamazov Translated
 Lowell Press New York
-History Of A Family Chapter I. Fyodor Pavlovitch Karamazov Chapter II
-Alyosha Chapter V. Elders Book II
-An Unfortunate Gathering Chapter I.
-Peasant Women Who Have Faith Chapter IV
-Lady Of Little Faith Chapter
-Chapter VI
-Scandalous Scene Book III
-Servants Quarters Chapter II
-Lizaveta Chapter III
-Smerdyakov Chapter VII
-Controversy Chapter VIII
-Brandy Chapter IX
-Sensualists Chapter X. Both Together Chapter XI
-Another Reputation Ruined Part II Book IV
-Lacerations Chapter I.
-Ferapont Chapter II
-Schoolboys Chapter IV
-Hohlakovs Chapter
-Laceration
-Drawing-Room Chapter VI
-Cottage Chapter VII
-Engagement Chapter II
-Brothers Make Friends Chapter IV
-Grand Inquisitor Chapter VI
-Clever Man Book VI
-Zossima And His Visitors Chapter II
-Duel Chapter III
-Zossima Part III Book VII
-Breath Of Corruption Chapter II
-Critical Moment Chapter III
-An Onion Chapter IV
-Cana Of Galilee Book VIII
-Mitya Chapter I. Kuzma Samsonov Chapter II
-Lyagavy Chapter III
-Gold-Mines Chapter IV
-Dark Chapter V
-Sudden Resolution Chapter VI
-First And Rightful Lover Chapter VIII
-Delirium Book IX
-Preliminary Investigation Chapter I.
-Beginning Of Perhotins Official Career Chapter II
-Alarm Chapter III
-The First Ordeal Chapter IV
-Third Ordeal Chapter VI
-Prosecutor Catches Mitya Chapter VII
-Mityas Great Secret
-Received With Hisses Chapter VIII
-Evidence Of The Witnesses
-Babe Chapter IX
-Mitya Away Part IV Book
-Boys Chapter I. Kolya Krassotkin Chapter II
-Schoolboy Chapter IV
-Lost Dog Chapter V.
-Ilushas Bedside Chapter VI
-Precocity Chapter VII
-Ilusha Book XI
-Grushenkas Chapter II
-Injured Foot Chapter III
-Little Demon Chapter IV
-First Interview With Smerdyakov Chapter VII
-Last Interview With Smerdyakov Chapter IX
-Devil
-Ivans Nightmare Chapter
-Said That Book XII
-Judicial Error Chapter I.
-Fortune Smiles On Mitya Chapter
-Sudden Catastrophe Chapter VI
-Smerdyakov Chapter IX
-Speech For The Defense
-Argument That Cuts Both Ways Chapter XI
-Peasants Stand Firm Epilogue Chapter I. Plans For Mityas Escape Chapter II
-Lie Becomes Truth Chapter III
 Ilushas Funeral
 Misovs
 Paris Revolution
@@ -558,7 +481,6 @@ Athos
 Kozelski Optin Monastery
 Holy Places
 Kingdom of Christ
-Book II
 Hes
 Virgin
 Mater Dolorosa
@@ -604,7 +526,6 @@ Alyoshas
 Mother of God
 Venus of Milo
 Image of the Mother of God
-II Book IV
 Sylvesters
 Ferapont
 Holy Ghost
@@ -617,7 +538,6 @@ Madame Hohlakov
 Meantime
 Metropolis
 Ilusha
-Book V. Pro And Contra Chapter I.
 Brothers Make Friends Ivan
 Cains
 Isnt Madame Hohlakov
@@ -642,7 +562,6 @@ Roman Church
 Misovand
 Maslovs
 Venice
-Book VI
 Priest and Monk
 Holy Week
 Life of Father Zossima
@@ -658,7 +577,6 @@ Holy Mother of God
 Divine Love
 Eternal Judge
 Hell Fire
-III Book VII
 Breath Of Corruption The
 Ech
 Fenya
@@ -687,7 +605,6 @@ Mityas
 Province of Smolensk
 Lite
 Podvysotsky
-Book IX
 Beginning Of Perhotins Official Career
 Fenyas
 The First Ordeal And so Mitya
@@ -786,18 +703,13 @@ Bank Holiday
 Crescent Bay
 Baa
 Baaa
-III
 Trout
-VI
-VII
 Snooker
 STUBBS'S
 Little Rags
 King of Diamonds
 Celestial Peach Blossom
 Bell
-XII
-XIII
 Miss Laura
 This Life
 Sheridans
@@ -869,9 +781,7 @@ Nikifor
 La Dame aux Camlias
 Countess Sotski
 Trepalaf
-XV
 Civil Code
-XVI
 Muishkins
 Sledges
 Katia-Pasha
@@ -963,9 +873,7 @@ Sergievsky Street
 Sidors
 Saint-Saens
 Swan Song
-XII With
 Oriental
-XIV When
 The Abandoned
 Heavenly Father
 Military Commandant

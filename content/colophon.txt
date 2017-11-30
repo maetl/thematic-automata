@@ -1,0 +1,10 @@
+Typefaces:
+PT Serif by ParaType
+
+Tools:
+Ruby 2.4 (https://ruby-lang.org)
+Stanford NER (https://nlp.stanford.edu/software/CRF-NER.html)
+Punkt Segmenter (https://rubygems.org/gems/punkt-segmenter)
+Calyx (https://calyx-rb.org)
+Prawn (https://github.com/prawnpdf/prawn)
+PNG (https://rubygems.org/gems/png)
