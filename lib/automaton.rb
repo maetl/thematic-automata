@@ -34,12 +34,8 @@ class Automaton
         m_cell = cells.last[col]
         r_cell = cells.last[right]
 
-        if l_cell != '-1' && m_cell != '-1' && r_cell != '-1'
-          state = l_cell + m_cell + r_cell
-          next_generation << rule.ruleset[state]
-        else
-          next_generation = '-1'
-        end
+        state = l_cell + m_cell + r_cell
+        next_generation << rule.ruleset[state]
       end
       cells << next_generation
     end
