@@ -37,11 +37,7 @@ bundle
 Or install them manually:
 
 ```
-<<<<<<< HEAD
 gem install rake calyx png prawn punkt-segmenter
-=======
-gem install rake calyx png prawn
->>>>>>> 72c19ea... Add instructions for installation and running
 ```
 
 ## Run
