@@ -22,7 +22,7 @@ class Document
     start_new_page(margin: 90)
 
     font("PT Serif") do
-      move_down 384
+      move_down 290
       font_size(18) { text("Appendix") }
       move_down 12
       text(File.read("./content/appendix.txt"))
