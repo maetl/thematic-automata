@@ -108,13 +108,16 @@ class Document
 
   def render_cover
     canvas do
-      transparent(0.15) do
-        image("output/cover-#{@timestamp}.png", position: :center, vposition: :center, scale: 2.834)
+      float do
+        transparent(0.2) do
+          image("output/cover-#{@timestamp}.png", position: :center, vposition: :center, scale: 2.834)
+        end
       end
 
       font("PT Serif", style: :bold) do
         fill_color "222222"
-        font_size(36) { draw_text(@theme.title, at: [56, 190]) }
+        move_down 330
+        font_size(90) { text(@theme.title, align: :center) }
       end
     end
   end
