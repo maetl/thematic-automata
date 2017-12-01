@@ -1,0 +1,5 @@
+gem "rake"
+gem "punkt-segmenter"
+gem "calyx"
+gem "png"
+gem "prawn"

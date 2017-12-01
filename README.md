@@ -26,6 +26,29 @@ Sentences are generated using word frequency n-grams chained from a corpus of se
 - [Prawn](https://github.com/prawnpdf/prawn)
 - [PNG](https://rubygems.org/gems/png)
 
+## Install
+
+Use Bundler to install the required gems:
+
+```
+bundle
+```
+
+Or install them manually:
+
+```
+gem install rake calyx png prawn punkt-segmenter
+```
+
+## Run
+
+Run the `generate` task using Rake to output a PDF. By default, it goes into the `output` directory.
+
+```
+mkdir output
+rake generate
+```
+
 ## License
 
 The MIT License (MIT)
