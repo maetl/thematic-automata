@@ -5,7 +5,10 @@ class Theme
     loneliness: ["lonely", "loneliness", "alone", "despair", "isolation", "isolated", "heartache", "desolate", "desolation", "forlorn", "solitude"],
     deception: ["deception", "deceipt", "fraud", "treachery", "cunning", "duplicity", "betrayal", "cheat", "cheating", "mendacious", "mendacity"],
     courage: ["courage", "strength", "valiant", "brave", "courageous", "courageously", "strong"],
-    love: ["love", "adulation", "adore", "lovely", "lover", "adoring", "adoration", "affection", "devotion", "passion"]
+    love: ["love", "adulation", "adore", "lovely", "lover", "adoring", "adoration", "affection", "devotion", "passion"],
+    freedom: ["freedom", "free", "liberate", "liberation", "autonomy", "autonomous", "escape"],
+    fear: ["fear", "fearful", "fearing", "scare", "scared", "scary", "terror", "afraid", "trepidation"],
+    discovery: ["discovery", "discover", "discovering", "uncover", "learn", "adventure", "adventurous", "venture", "venturing"]
   }
 
   attr_reader :figure, :ground
